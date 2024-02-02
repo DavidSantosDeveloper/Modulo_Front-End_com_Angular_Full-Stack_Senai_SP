@@ -1,0 +1,22 @@
+
+<mat-card class="example-card">
+    <img mat-card-image src={{urlImg}} alt="Jogo 1">
+
+    <mat-card-header>
+      <mat-card-title>{{titulo}}</mat-card-title>
+    </mat-card-header>
+    
+    <mat-card-content>
+      <p>
+        {{descricao}}
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <div class="container_precos">
+          <p class="preco-novo"><span>R$ {{preco}}</span></p>
+      </div>
+      
+      <button mat-button><span>Comprar</span></button>
+    </mat-card-actions>
+  </mat-card>
+

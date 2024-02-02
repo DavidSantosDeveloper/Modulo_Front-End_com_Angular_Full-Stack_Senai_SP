@@ -1,0 +1,86 @@
+mat-card.example-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+  min-height: fit-content;
+  height: 500px;
+  min-width: 300px;
+
+   border: 3px solid black;
+   border-radius: 40px;
+   padding-inline: 10px;
+   padding-top: 10px;
+}
+mat-card img{
+  height: 200px;
+  width: 200px;
+  border: 15px;
+}
+
+mat-grid-tile{
+  padding: 2px;
+  border-radius: 30px;
+}
+
+mat-card-header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+mat-card-actions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  /* border: 3px solid blue; */
+
+}  
+
+div.container_precos{
+  /* border: 3px solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+}
+mat-card-actions p span{
+  font-size: 1.8rem;
+}
+
+p.preco-antigo{
+  color: red;
+  text-decoration: line-through;
+}
+p.preco-novo{
+  color: green;
+  margin: auto 0;
+}
+button[mat-button]{
+    align-self: flex-end;
+    padding-block: 8%;
+    padding-inline: 1.9rem;
+    border: 2px solid #3f51b5;
+    border-radius: 25px;
+
+    font-size: 1.9rem;
+}
+button[mat-button]:hover{
+   border: 2px solid transparent;
+   outline: 3px solid black;
+   background-color: #184e77;
+
+   color: white;
+   transform: translateY(-5px);
+   transition: ease-in-out 0.3s;
+}
+button[mat-button] span{
+  font-size: 1.2rem;
+}
+mat-card img{
+  height: 200px;
+  width: 200px;
+}
+

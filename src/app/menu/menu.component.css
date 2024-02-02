@@ -1,0 +1,20 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+span{
+    padding: 10px;
+}
+
+  img{
+    height: 9vh; 
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+mat-toolbar{
+  height: 12vh;
+}
